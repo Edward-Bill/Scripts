@@ -1,6 +1,10 @@
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
-local Camera = workspace.CurrentCamea
+local Camera = workspace.CurrentCamera
+
+local SPEED_MULTIPLIER = 100
+local JUMP_POWER = 80
+local JUMP_GAP = 10
 
 local character = game.Players.LocalPlayer.Character
 
