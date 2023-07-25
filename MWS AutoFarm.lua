@@ -86,6 +86,10 @@ for ___,k in pairs(game.Workspace.BuildZones:GetChildren()) do
                         game:GetService("ReplicatedStorage").Remotes.ClientRequestOwnership:FireServer(items[j].PrimaryPart)
                         --items[j].PrimaryPart.CFrame = k.Main.CFrame + Vector3.new(0, 15, 0)
                         items[j]:MoveTo(k.Main.CFrame.Position + Vector3.new(0, 15, 0))
+                        game:GetService("ReplicatedStorage").Remotes.ClientCutProcess:FireServer(items[j], 
+                            CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1), 
+                            Vector3.new(0, 0, 1), 
+                            0.99)
                         pl.Character.HumanoidRootPart.CFrame = items[j].PrimaryPart.CFrame
                         items[j].PrimaryPart.Velocity = Vector3.new(0, 0, 0)
                         items[j].PrimaryPart.AssemblyAngularVelocity = Vector3.new(0,0,0)
@@ -106,6 +110,7 @@ end
 pl.Character.Humanoid.Sit = false
 pl.Character.Humanoid.PlatformStand = false
 pl.Character.HumanoidRootPart.CFrame = pos
+_G.notify("Auto Farm ended", 5, 17)
 game:GetService("ReplicatedStorage").Remotes.LoadSave:InvokeServer("ClearBuildZone")
 
 
