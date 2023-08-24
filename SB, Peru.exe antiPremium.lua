@@ -3,7 +3,10 @@
 
 
 Made by Exodus
+___________________________
+execute this:
 
+_G.antiPrem = true
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Edward-Bill/Scripts/main/SB%2C%20Peru.exe%20antiPremium.lua"))()
 
 ]]--
