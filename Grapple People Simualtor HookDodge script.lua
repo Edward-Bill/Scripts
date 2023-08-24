@@ -1,7 +1,6 @@
 --[[
 	
-Hook Dodge script by _Pablo_#2226
-Русский Стандарт!
+Hook Dodge script by Exodus
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Edward-Bill/Scripts/main/Grapple%20People%20Simualtor%20HookDodge%20script.lua", true))()
 
