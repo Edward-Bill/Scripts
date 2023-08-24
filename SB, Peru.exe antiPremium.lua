@@ -5,7 +5,7 @@
 Russian Standarts!
 
 
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Edward-Bill/Scripts/main/SB%2C%20Peru.exe%20antiPremium.lua"))()
 
 ]]--
 
