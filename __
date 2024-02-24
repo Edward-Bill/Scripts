@@ -1,2 +1,2 @@
-loadstring(game:HttpGet("https://gist.githubusercontent.com/Edward-Bill/2ffb80c2c76a8992cbd31d4c18bee5b7/raw/c01bdc6a4455ac158e2f7899f57f9d904be05d2c/botto.lua"))()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/Edward-Bill/2ffb80c2c76a8992cbd31d4c18bee5b7/raw/dacedd6546da8197d9d419cb97d97630ee9ff23d/botto.lua"))()
 game.Workspace.FallenPartsDestroyHeight = 0/0
